@@ -1,0 +1,11 @@
+version: '3.2'
+services:
+
+  web:
+    build:
+      context: .
+      dockerfile: BuildMonitoring/Dockerfile
+    ports:
+      - 80:80
+
+
